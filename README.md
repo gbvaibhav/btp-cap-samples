@@ -3,7 +3,7 @@
 Welcome to your new project.
 here all available options in project template creation was selected together 
 
-![alt text](readme_res\image.png)
+![alt text](readme_res/image.png)
 
 It contains these folders and files, following our recommended project layout:
 
