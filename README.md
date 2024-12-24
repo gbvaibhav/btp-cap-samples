@@ -5,6 +5,12 @@ with basic needed options selected for a CAP application
 
 ![alt text](readme_res/image.png)
 
+adding the UI module seperately 
+
+![alt text](readme_res/UI_1.png)
+![alt text](readme_res/UI_2.png)
+![alt text](readme_res/UI_3.png)
+
 It contains these folders and files, following our recommended project layout:
 
 File or Folder | Purpose

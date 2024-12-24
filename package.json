@@ -17,7 +17,8 @@
     "@sap/cds-dk": "^8"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-btp-cap-samples-ui5-app": "cds watch --open btp-cap-samples-ui5-app/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "requires": {
