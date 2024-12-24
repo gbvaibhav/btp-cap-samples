@@ -37,21 +37,21 @@ modules:
       content-target: true
   build-parameters:
     build-result: app/
-    requires: null
-- name: btp-cap-samples-app-content
-  type: com.sap.application.content
-  path: .
-  requires:
-  - name: btp-cap-samples-repo-host
-    parameters:
-      content-target: true
-  build-parameters:
-    build-result: resources
     requires:
     - artifacts:
-      - comgbsampleshtmlbtpcapsamplesui5app.zip
-      name: comgbsampleshtmlbtpcapsamplesui5app
-      target-path: resources/
+      - sampleui5app.zip
+      name: sampleui5app
+      target-path: app/
+- name: sampleui5app
+  type: html5
+  path: app/btp-cap-samples-ui5-app
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm ci
+    - npm run build:cf
+    supported-platforms: []
 resources:
 - name: btp-cap-samples-auth
   type: org.cloudfoundry.managed-service
@@ -95,6 +95,8 @@ resources:
           existing_destinations_policy: update
     service: destination
     service-plan: lite
+  requires:
+    - name: srv-api
 - name: btp-cap-samples-html5-repo-host
   type: org.cloudfoundry.managed-service
   parameters:
