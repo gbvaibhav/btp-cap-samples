@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Tue Dec 24 2024 10:16:56 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Tue Dec 24 2024 11:02:34 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-freestyle|
 |**App Generator Version**<br>1.16.1|
 |**Generation Platform**<br>SAP Business Application Studio|
@@ -9,7 +9,7 @@
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/catalog/|
 |**Module Name**<br>btp-cap-samples-ui5-app|
-|**Application Title**<br>Basic UI5 application in CAP|
+|**Application Title**<br>basic ui5 application in CAP|
 |**Namespace**<br>com.gb.samples.html|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.120.23|
@@ -19,7 +19,7 @@
 
 ## btp-cap-samples-ui5-app
 
-Basic UI5 application in CAP
+basic ui5 application in CAP
 
 ### Starting the generated app
 
