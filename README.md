@@ -11,6 +11,10 @@ adding the UI module seperately
 ![alt text](readme_res/UI_2.png)
 ![alt text](readme_res/UI_3.png)
 
+
+![alt text](readme_res/t1.png)
+![alt text](readme_res/t2.png)
+![alt text](readme_res/t3.png)
 It contains these folders and files, following our recommended project layout:
 
 File or Folder | Purpose
