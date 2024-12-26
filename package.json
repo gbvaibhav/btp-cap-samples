@@ -25,7 +25,13 @@
     "build": "rimraf resources mta_archives && mbt build --mtar archive",
     "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
   },
+  "comment":"cds.server.body_parser - accepts // also accepts b, kb, etc... and this will set globally ",
   "cds": {
+    "server": {
+      "body_parser": {
+        "limit": "1mb" 
+      }
+    },
     "requires": {
       "auth": "xsuaa",
       "connectivity": true,
